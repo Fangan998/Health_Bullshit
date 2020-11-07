@@ -72,6 +72,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#B39797"
             android:orientation="horizontal">
 
             <Button
@@ -79,7 +80,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
                 android:text="@string/add"
                 app:backgroundTint="#26FF00" />
 
@@ -88,7 +88,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
                 android:text="@string/edit"
                 app:backgroundTint="#FF6922" />
 
@@ -97,7 +96,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#FF0000"
                 android:text="@string/delete"
                 app:backgroundTint="#FF0000" />
 
@@ -106,7 +104,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="#E17373"
                 android:text="@string/clear"
                 app:backgroundTint="#3E37FF" />
 
@@ -114,8 +111,7 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#FFFFFF">
+            android:layout_height="match_parent">
 
             <ListView
                 android:id="@+id/listV_list"
