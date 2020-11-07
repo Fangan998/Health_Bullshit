@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Health Bullshit</string>
+    <string name="search">search</string>
+    <string name="add">new</string>
+    <string name="edit">edit</string>
+    <string name="delete">delete</string>
+    <string name="nO">No.</string>
+    <string name="con_text">Con</string>
+    <string name="clear">Clear</string>
 </resources>
