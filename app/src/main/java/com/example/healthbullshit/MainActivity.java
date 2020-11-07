@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
                             if (cursor != null && cursor.getCount() >= 0){
                                 AlertDialog.Builder builder=new AlertDialog.Builder(MainActivity.this);
                                 builder.setTitle("確定刪除");
-                                builder.setMessage("確定要刪除" + editText_id.getText() + "這筆資料?");
+                                builder.setMessage("確定要刪除這筆資料?");
                                 builder.setNegativeButton("取消", new DialogInterface.OnClickListener() {
                                     public void onClick(DialogInterface dialog, int i) {
                                     }
@@ -110,6 +110,7 @@ public class MainActivity extends AppCompatActivity {
                             cursor=db.getAll();                                                      // loadAll
                             UpdateAdapter(cursor);                                                   // loadToList
                         }
+                        ClearEdit();
                         break;
                     }
                     case R.id.btn_search:{
